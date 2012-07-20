@@ -1,7 +1,7 @@
-1. Se calla y pone atencion :P
-2. Copiar el file jquery.progressbar.css en la carpeta de css
-3. Copiar el file jquery.progressbar.min.js en la carpeta de javascripts:
-4. Cambiar la estructura del HTML:
+
+1. Copy jquery.progressbar.css in the css folder
+2. Copy the jquery.progressbar.min.js file in the js folder
+3. Change the containing DOMElement if required.
 
 
 <div id="main_image_container" class="main_image_container">
@@ -16,10 +16,6 @@
 	</div>
 </div>
 
-... Notese que ahora existe un span con id="progress_bar"
-
-5. Cambiar el file jquery.orange.rotate360.js
-6. Depositar los $50.!
-7. Raje con esta putada y hagamonos famosos!!!.
+Enjoy!
 
 Allan

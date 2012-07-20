@@ -1,0 +1,5 @@
+#main_image_container span#progress_bar{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}

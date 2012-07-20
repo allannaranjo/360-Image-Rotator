@@ -1,0 +1,82 @@
+<html>
+
+	<head>
+		
+		<link rel="stylesheet" href="css/rotate360.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		<link rel="stylesheet" href="css/jquery.slider.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		<link rel="stylesheet" href="css/jquery.progressbar.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		
+		<script src="js/jquery-1.5.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.orange.rotate360.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.slider.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.progressbar.min.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script type="text/javascript" language="javascript">
+		
+			$(function(){
+				
+				var options = 	{
+					car_dir : "images/A_STATION_2tone",
+					transition_speed:110, 
+					images : [
+						{ name : "A_360_01.jpg"},
+						{ name : "A_360_02.jpg"},
+						{ name : "A_360_03.jpg"},
+						{ name : "A_360_04.jpg"},
+						{ name : "A_360_05.jpg"},
+						{ name : "A_360_06.jpg"},
+						{ name : "A_360_07.jpg"},
+						{ name : "A_360_08.jpg"},
+						{ name : "A_360_09.jpg"},
+						{ name : "A_360_10.jpg"},
+						{ name : "A_360_11.jpg"},
+						{ name : "A_360_12.jpg"},
+						{ name : "A_360_13.jpg"},
+						{ name : "A_360_14.jpg"},
+						{ name : "A_360_15.jpg"},
+						{ name : "A_360_16.jpg"},
+						{ name : "A_360_17.jpg"},
+						{ name : "A_360_18.jpg"},
+						{ name : "A_360_19.jpg"},
+						{ name : "A_360_20.jpg"},
+						{ name : "A_360_21.jpg"},
+						{ name : "A_360_22.jpg"},
+						{ name : "A_360_23.jpg"},
+						{ name : "A_360_24.jpg"},
+						{ name : "A_360_25.jpg"},
+						{ name : "A_360_26.jpg"},
+						{ name : "A_360_27.jpg"},
+						{ name : "A_360_28.jpg"},
+						{ name : "A_360_29.jpg"},
+						{ name : "A_360_30.jpg"},
+						{ name : "A_360_31.jpg"},
+						{ name : "A_360_32.jpg"},
+						{ name : "A_360_33.jpg"},
+						{ name : "A_360_34.jpg"},
+						{ name : "A_360_35.jpg"},
+						{ name : "A_360_36.jpg"}
+					]
+				}
+				$("#main_image_container").rotate360(options);
+			})
+		
+		</script>
+		
+		
+	</head>
+	
+	<body>
+		<div id="main_image_container" class="main_image_container">
+			<img id="bg_smooth" src=""/>
+			<span id="progress_bar"></span>
+			<div class="controls">
+				<div class="play"></div>
+				<div id="slider" class="slider"></div>
+			</div>
+			<div id="asx_rotator_logo">
+				<img src="images/asx_360.png">
+			</div>
+		</div>
+	</body>
+
+</html>

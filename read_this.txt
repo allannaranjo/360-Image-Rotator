@@ -1,0 +1,25 @@
+1. Se calla y pone atencion :P
+2. Copiar el file jquery.progressbar.css en la carpeta de css
+3. Copiar el file jquery.progressbar.min.js en la carpeta de javascripts:
+4. Cambiar la estructura del HTML:
+
+
+<div id="main_image_container" class="main_image_container">
+	<img id="bg_smooth" src=""/>
+	<span id="progress_bar"></span>
+	<div class="controls">
+		<div class="play"></div>
+		<div id="slider" class="slider"></div>
+	</div>
+	<div id="asx_rotator_logo">
+		<img src="images/asx_360.png">
+	</div>
+</div>
+
+... Notese que ahora existe un span con id="progress_bar"
+
+5. Cambiar el file jquery.orange.rotate360.js
+6. Depositar los $50.!
+7. Raje con esta putada y hagamonos famosos!!!.
+
+Allan

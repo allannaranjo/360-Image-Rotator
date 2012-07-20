@@ -1,0 +1,7 @@
+This is a small project that will allow to rotate 360 an image.
+The plugin preloads all the images and once loaded, it will enable the rotating controls.
+The controls have an autoplay button that will start the image rotation and a slider to be handled by the user.
+
+Any questions:
+
+allan.naranjo@gmail.com
